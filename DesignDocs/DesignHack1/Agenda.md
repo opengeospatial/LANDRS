@@ -1,7 +1,7 @@
 # LANDRS Design Hackathon1 
 Linked-data API for Networked DRoneS
 
-## Pre-event Reccommended Readings:
+### Pre-event Reccommended Readings:
 
 *   **Drone data**
     *   [EMERGENT CHALLENGES FOR SCIENCE sUAS DATA MANAGEMENT: FAIRNESS THROUGH COMMUNITY ENGAGEMENT AND BEST PRACTICES DEVELOPMENT](https://www.preprints.org/manuscript/201905.0274/v1)
@@ -31,7 +31,7 @@ Linked-data API for Networked DRoneS
 *   [UASPSE](https://digitalag.org/our/)
 
 
-## Drone Data Design Hackathon Tuesday 16 july 2019 {#drone-data-design-hackathon-tuesday-16-july-2019}
+### Drone Data Design Hackathon Tuesday 16 july 2019
 
 **Morning talks:**
 
