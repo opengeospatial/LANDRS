@@ -5,7 +5,7 @@ Very beginning of a repo for developing LANDRS: Linked-data API for Networked DR
 ![Concept](./DesignDocs/images/BlockDiagram_Prehack1.svg)
 
 ## Design diagram2:
-![Semantic Model Strawman](./DesignDocs/images/Drone\ Strawman\ Conceptual\ Model.png)
+![Semantic Model Strawman](./DesignDocs/images/DroneStrawmanConceptualModel.png)
 
 ## Design Hack1 at ESIP Summer Meeting
 - Apply for funding [here](https://docs.google.com/forms/d/e/1FAIpQLScLsOjksanfSHAoUzZFRHltXHXV_7RDVHrYFeqr7W0zWl9BwQ/viewform) by Sunday 9 june 2019
