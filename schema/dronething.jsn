@@ -1,0 +1,36 @@
+"DroneThing":{
+  "Model":"ScienceDrone1", //If commercial obviously would be ~DJI Phantom4
+  "Manufacturer":"Researcher X", //Could equally be "Company Y obviously"
+  "AutoPilot":{"Model":"Pixhawk2.1 Cube Black",
+    //Hardware schematics (obv not avaiable for proprietary options): https://github.com/ArduPilot/Schematics/tree/master/ProfiCNC/The-Cube
+    "Software:":"Ardupilot v3.2.1",
+    //https://github.com/ArduPilot/ardupilot/tree/master/ArduCopter
+    "Operating System version": "chibiOS "
+    //https://en.wikipedia.org/wiki/ChibiOS/RT
+    "Autopilot Sensors":{
+      "Atmospheric Pressure":"MS5611-01BA03",
+      "Motion tracking sensors":["InvenSense MPU9250","ST Micro L3GD20", "ST Micro LSM303D"],
+      "External GPS":"HERE+ Ublox m8p" // https://docs.px4.io/en/gps_compass/rtk_gps_hex_hereplus.html
+      "Camera":"Intel Realsense D435",
+      "InfraRed range":"Sharp GP2Y0A02YK0F"
+    }//Potentially multiple of each of above on board
+    //Docs: http://ardupilot.org/copter/docs/common-thecube-overview.html
+    //Ideally these would be derefereabceble from the engineering specs but obv not posisble now
+  },
+  "Registration Number":"FAA123456789", //ID?
+  "Airframe":{"Type" : "Hexacopter", 
+  "Aircraft Weight on takeoff in kg": "5"  //Depending on which Aviation authority is relevant classes are different but if we had a weight then a reasoner could look at hypothetical LD aviation documentation and determine the relevant class for the region
+  },
+  "Affordances":{
+    "Command and Control":["2.4GHz FrySky Protocol", "Sik Radio 915MHz Mavlink 2.0 Protocol",
+    "RS232 over USB cable"],
+    "Telemetry data":["2.4GHz FrySky Protocol", "Sik Radio 915MHz Mavlink 2.0 Protocol","RS232 over USB cable Mavlink"],
+    "Payload data": ["5.8Ghz Wifi MQTT over TCP","Sik Radio 915MHz Mavlink 2.0 Protocol","RS232 over USB cable Mavlink"],
+  },
+  "Payload":{
+    "Type":"Sensors", //Or Cargo
+    "Payload Sensors":"CO2meter K33",
+    "Companion Computer":"Raspberry Pi 3B+"
+  }
+}
+
