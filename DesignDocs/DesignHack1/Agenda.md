@@ -1,19 +1,7 @@
 # LANDRS Design Hackathon1 
+Linked-data API for Networked DRoneS
 
-
-## Linked-data API for Networked DRoneS
-
-
-## #This Document Structure:
-
-
-[TOC]
-
-
-
-## Pre-event Readings:
-
-
+### Pre-event Reccommended Readings:
 
 *   **Drone data**
     *   [EMERGENT CHALLENGES FOR SCIENCE sUAS DATA MANAGEMENT: FAIRNESS THROUGH COMMUNITY ENGAGEMENT AND BEST PRACTICES DEVELOPMENT](https://www.preprints.org/manuscript/201905.0274/v1)
@@ -27,8 +15,6 @@
 
 **Reusable standards and introductions to relevant technologies**
 
-
-
 *   *****[OGC Environmental Linked Features Interoperability Experiment Engineering Report](https://docs.opengeospatial.org/per/18-097.html)
 *   [OGC Testbed-14: Next Generation Web APIs - WFS 3.0 Engineering Report](https://docs.opengeospatial.org/per/18-045.html)
 *   [Spatial Data on the Web Best Practices](http://w3c.github.io/sdw/bp/)
@@ -40,14 +26,12 @@
 
 **Current drone data hosting projects:**
 
-
-
 *   [USGS](https://www.sciencebase.gov/catalog/item/5bd883c5e4b0b3fc5cea1833)
 *   [OpenTopography](http://opentopo.sdsc.edu/dataspace/datasets)
 *   [UASPSE](https://digitalag.org/our/)
 
 
-## Drone Data Design Hackathon Tuesday 16 july 2019 {#drone-data-design-hackathon-tuesday-16-july-2019}
+### Drone Data Design Hackathon Tuesday 16 july 2019
 
 **Morning talks:**
 
@@ -67,7 +51,7 @@
 
     - Next steps
 
-**Standards:**
+## Standards
 
 Web standards
 
@@ -79,17 +63,6 @@ Provenance standards
 
 Metadata standards
 
-Analytics practices (don’t exist)
+Analytics practices
 
-**Tools:**
-
-Onboard: 	RT Analytics, 	Logging, 	Tagging, 	Provenance(Metadata capture)
-
-Field Laptop: 	Monitoring,	Logging, 	Tagging, 	Provenance(Metadata capture)
-
-Lab server: 			Analytics, 	Tagging, 	Provenance(Metadata capture)
-
-Repository:							Provenance(Metadata capture)
-
-World:						 		Analytics, Provenance(Metadata capture)
 
