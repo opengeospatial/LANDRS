@@ -3,6 +3,7 @@
 ## 27 June 2017
 
 **Attendees:**
+Jane, Lindsay, John 
 
 **Discussion:**
 
@@ -14,15 +15,16 @@ JW:
 
 * Plans for ESIP Hackathon
     * Join Slack [here](https://join.slack.com/t/landrsworkspace/shared_invite/enQtNjYwNDI3NDk2NTE5LWUxMTEwMDc4Y2RjMmI0MzIwOGI3NTNkNTUyMTQ2N2UyZmZlNDExNGYxNWVjMDFjMDU1MTgwMjE3MWQ5Y2Q1OWE)
-    * See reccommended introductory reading [here](https://join.slack.com/t/landrsworkspace/shared_invite/enQtNjYwNDI3NDk2NTE5LWUxMTEwMDc4Y2RjMmI0MzIwOGI3NTNkNTUyMTQ2N2UyZmZlNDExNGYxNWVjMDFjMDU1MTgwMjE3MWQ5Y2Q1OWE)
+    * See reccommended introductory reading [here in the agenda](https://github.com/opengeospatial/LANDRS/blob/master/DesignDocs/DesignHack1/Agenda.md)
     * Monday 19 June: Geo-semantics symposium
     * Tuesday:
         - ESIP plenary
         - LANDRS Morning: 
             - Introductions 
             - Existing drone data tool stacks
-        -  Lunch
+        - Lunch
         - Developing competency questions
+            * Ask Joe and Bar to upload data
         - Break up into design groups
             -- Some hypothetical topics but for discussion
             -- Schema
@@ -30,5 +32,12 @@ JW:
             -- Mavlink-LD
             -- UxV model and identifiers
             -- Project governance, RDA, and long term community building
-            
+            -- Simulation drone 
 
+- ToDos:
+    - Bar and Joe to upload data to repo now - LTAR data?
+    - Jane to create a intro to OpenAPI
+    - Poll slack on proposed hack topics
+    - Get OGC presentation
+    - Talk to Helsinki now for remote participation
+    - Consider drone simulation data Eg [Gazebo](https://wiki.ros.org/gazebo) and [SITL](https://duckduckgo.com/?q=Ardupilot+simulator&t=canonical&ia=web)
