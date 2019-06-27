@@ -26,14 +26,13 @@ Jane, Lindsay, John
         - Lunch
         - Developing competency questions
             * Ask Joe and Bar to upload data
-        - Break up into design groups
-            -- Some hypothetical topics but for discussion
-            -- Schema
-            -- OpenAPI and demo
-            -- Mavlink-LD
-            -- UxV model and identifiers
-            -- Project governance, RDA, and long term community building
-            -- Simulation drone 
+        - Break up into design groups: Some hypothetical topics but for discussion
+            - Schema
+            - OpenAPI and demo
+            - Mavlink-LD
+            - UxV model and identifiers
+            - Project governance, RDA, and long term community building
+            - Simulation drone 
 
 - ToDos:
     - Bar and Joe to upload data to repo now - LTAR data?
