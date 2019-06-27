@@ -8,7 +8,8 @@
 
 * Notes from OGC TC UxS meeting presentations [here](https://portal.opengeospatial.org/index.php?m=projects&a=view&project_id=82&tab=2&artifact_id=84117) but behind OGC paywall
 JW: 
-    -- Conceptual Data Model for UAS Zone Data - EUROCAE 
+    -- Conceptual Data Model for UAS Zone Data - EUROCAE
+ 
     -- UAS ATM common altitude reference system discussion document 
 
 * Plans for ESIP Hackathon
