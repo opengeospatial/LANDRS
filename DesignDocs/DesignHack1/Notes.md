@@ -40,4 +40,4 @@ JW:
     - Poll slack on proposed hack topics
     - Get OGC presentation
     - Talk to Helsinki now for remote participation
-    - Consider drone simulation data Eg [Gazebo](https://wiki.ros.org/gazebo) and [SITL](https://duckduckgo.com/?q=Ardupilot+simulator&t=canonical&ia=web)
+    - Consider drone simulation data Eg [Gazebo](https://wiki.ros.org/gazebo) and [SITL](http://ardupilot.org/dev/docs/sitl-simulator-software-in-the-loop.html)
