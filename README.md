@@ -1,5 +1,9 @@
 # README
-Very beginning of a repo for developing LANDRS: Linked-data API for Networked DRoneS
+LANDRS: Linked-data API for Networked DRoneS
+An API for building drone data management tools that facilitate FAIR data.
+
+![LANDRS](./DesignDocs/images/LANDRS-logo/png/landrs-logo-full_md.png)
+
 
 ## Design diagram1:
 ![Concept](./DesignDocs/images/BlockDiagram_Prehack1.svg)
