@@ -41,25 +41,27 @@
       - Joe Adams: USGS drone data technical stack
       - Sudhir Shrestha: Esri drone data technical stack
       - Chris Schnaufer: Cyverse and drone data
-      - TBC
+
 **11:45 - 12:45 Lunch (60min)**
 
-**12:45 - 14:15 (90min) Competency question development**
-   - Example data-sets (20min max):
-      - Joe Adams: 2019 Aquatic Airshow
-      - Lindsay Barbieri: Parameters in monitoring greenhouse gasses over agricultural lands
-      - TBC
-   - Chuck Vardeman: Group discussion developing compentancy questions
+**12:45 - 18:00 Unconfernce**
+   **12:45 - 13:00: Unconference pitches:**
+   1. Hacking at a dummy OpenAPI demo: What the linked data documents we need look like and how OpenAPI can be molded for our needs
+   2. Building out the vocab and standardised conceptual models we need: creating the required missing models
+   3. CEDAR as a tool for schema harmonization: strategising how and what we need to do
+   4. Community building & governance: Creating a API features specification through application compentancy questions
+   
+Vote with your feet afternoon
+    
+   * Session1: 13:00 - 15:00 (120min)  
 
-**14:15 - 14:45 (30min) break**
+Report back at 15:00 
 
-**14:45 - 16:15 (90min) Modeling**
-- Topics to be developed during previous session
-- Break into groups
+   * Session2: 15:15 - 17:15 (120min)  
 
-**16:15-16:30 (15min) Short break**
+Report back at 17:15
 
-**16:30 - 18:00 (90min)**
-   - Report back on modeling
-   - Group wide design review and identification of next steps/new discovered gaps...
-   - Updates on project progression and opportunities going forward (telcos, student exchanges, RDA hackathon)
+**17:15 - 18:00 Closing session**
+   * Summary of the day
+   * Open discussion 
+   * Update on future plans and opportunities (RDA, Student exchange, Deployment hackathons)
