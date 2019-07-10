@@ -45,7 +45,8 @@
 **11:45 - 12:45 Lunch (60min)**
 
 **12:45 - 18:00 Unconfernce**
-   **12:45 - 13:00: Unconference pitches:**
+
+**12:45 - 13:00: Unconference pitches:**
    1. Hacking at a dummy OpenAPI demo: What the linked data documents we need look like and how OpenAPI can be molded for our needs
    2. Building out the vocab and standardised conceptual models we need: creating the required missing models
    3. CEDAR as a tool for schema harmonization: strategising how and what we need to do
@@ -53,11 +54,11 @@
    
 Vote with your feet afternoon
     
-   * Session1: 13:00 - 15:00 (120min)  
+   * **Session1: 13:00 - 15:00** (120min)
 
 Report back at 15:00 
 
-   * Session2: 15:15 - 17:15 (120min)  
+   * **Session2: 15:15 - 17:15** (120min) 
 
 Report back at 17:15
 
