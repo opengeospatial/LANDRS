@@ -4,14 +4,14 @@ info:
   license:
     name: MIT
   version: 1.0.0
-#servers:
-#  - url: 'http://10.0.3.41:8080/v1'
+servers:
+ - url: 'http://0.0.0.0:8080/v1'
 paths:
   /temperatures:
     get:
       tags:
         - temperatures
-      summary: List all temperature readings
+      summary: List temperature reading objects
       operationId: list_temperatures
       parameters:
         - name: limit
@@ -25,7 +25,7 @@ paths:
             format: int32
       responses:
         '200':
-          description: A paged array of temperature readings
+          description: A paged array of temperature objects
           headers:
             x-next:
               description: A link to the next page of responses
@@ -53,7 +53,7 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/body'
+              $ref: '#/components/schemas/Body'
         required: true
         x-name: temperature
       responses:
@@ -70,87 +70,99 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
       x-openapi-router-controller: swagger_server.controllers.temperatures_controller
-  '/temperatures/{temperatureId}':
+  '/temperatures/{temperatureid}':
     get:
       tags:
         - temperatures
       summary: Info for a specific temperature reading
       operationId: show_temperature_by_id
       parameters:
-        - name: temperatureId
-          in: path
-          description: The uuid of the temperature reading to retrieve
-          required: true
-          style: simple
+        - description: The uuid of the temperature reading to retrieve
           explode: false
+          in: path
+          name: temperatureid
+          required: true
           schema:
+            pattern: '^\d{8}-\d{4}-\d{4}-\d{4}-\d{12}$'
             type: string
-            format: uuid
+          style: simple
       responses:
-        '200':
-          description: Expected response to a valid request
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Temperature'
         default:
-          description: unexpected error
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/Error'
+          description: unexpected error
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Temperature'
+          description: Expected response to a valid request
       x-openapi-router-controller: swagger_server.controllers.temperatures_controller
 components:
   schemas:
+    Body:
+      description: A simple object representing one individual temperature measurement. See the example for object structure.
+      properties:
+        scale:
+          description: The temperature scale being used to quantify the measurement
+          enum:
+            - celsius
+            - fahrenheit
+          type: string
+        value:
+          description: A floating number representing the temperature measurement value
+          format: float
+          type: number
+      required:
+        - value
+      type: object
+    Error:
+      description: Represents a customized object to return to the client in the case of an error
+      properties:
+        code:
+          description: HTTP error code to include in the response to the client
+          format: int32
+          type: integer
+        message:
+          description: A customized error message to include in the response to the client
+          type: string
+      required:
+        - code
+        - message
     Temperature:
+      description: A simple object representing one individual temperature measurement. See the example for object structure.
+      example:
+        date: 2000-01-23T04:56:07.000Z
+        id: 046b6c7f-0b8a-43b9-b35d-6489e6daee91
+        scale: celsius
+        value: 0.8008282
+      properties:
+        date:
+          description: The ISO 8601 date-time stamp on which this measurement was taken
+          format: date-time
+          type: string
+        id:
+          description: A UUID representing one temperature measurement
+          pattern: '^\d{8}-\d{4}-\d{4}-\d{4}-\d{12}$'
+          type: string
+        scale:
+          description: The temperature scale being used to quantify the measurement
+          enum:
+            - celsius
+            - fahrenheit
+          type: string
+        value:
+          description: A floating number representing the temperature measurement value 
+          format: float
+          type: number
       required:
         - date
         - id
         - value
-      properties:
-        id:
-          type: string
-          format: uuid
-        value:
-          type: number
-          format: float
-        date:
-          type: string
-          format: date-time
-        scale:
-          type: string
-          enum:
-            - celsius
-            - fahrenheit
-      example:
-        date: 2000-01-23T04:56:07.000Z
-        scale: celsius
-        id: 046b6c7f-0b8a-43b9-b35d-6489e6daee91
-        value: 0.8008282
     Temperatures:
-      type: array
+      description: An array of Temperature objects
       items:
         $ref: '#/components/schemas/Temperature'
-    Error:
-      required:
-        - code
-        - message
-      properties:
-        code:
-          type: integer
-          format: int32
-        message:
-          type: string
-    body:
-      required:
-        - value
-      type: object
-      properties:
-        value:
-          type: number
-          format: float
-        scale:
-          type: string
-          enum:
-            - celsius
-            - fahrenheit
+      type: array
