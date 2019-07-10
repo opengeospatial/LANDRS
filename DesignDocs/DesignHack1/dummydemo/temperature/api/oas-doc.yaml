@@ -1,0 +1,156 @@
+openapi: 3.0.0
+info:
+  title: Temperature API
+  license:
+    name: MIT
+  version: 1.0.0
+#servers:
+#  - url: 'http://10.0.3.41:8080/v1'
+paths:
+  /temperatures:
+    get:
+      tags:
+        - temperatures
+      summary: List all temperature readings
+      operationId: list_temperatures
+      parameters:
+        - name: limit
+          in: query
+          description: How many items to return at one time (max 100)
+          required: false
+          style: form
+          explode: true
+          schema:
+            type: integer
+            format: int32
+      responses:
+        '200':
+          description: A paged array of temperature readings
+          headers:
+            x-next:
+              description: A link to the next page of responses
+              style: simple
+              explode: false
+              schema:
+                type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Temperatures'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+      x-openapi-router-controller: swagger_server.controllers.temperatures_controller
+    post:
+      tags:
+        - temperatures
+      summary: Create a temperature reading
+      operationId: create_temperature
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/body'
+        required: true
+        x-name: temperature
+      responses:
+        '200':
+          description: A new temperature reading
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Temperature'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+      x-openapi-router-controller: swagger_server.controllers.temperatures_controller
+  '/temperatures/{temperatureId}':
+    get:
+      tags:
+        - temperatures
+      summary: Info for a specific temperature reading
+      operationId: show_temperature_by_id
+      parameters:
+        - name: temperatureId
+          in: path
+          description: The uuid of the temperature reading to retrieve
+          required: true
+          style: simple
+          explode: false
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Expected response to a valid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Temperature'
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+      x-openapi-router-controller: swagger_server.controllers.temperatures_controller
+components:
+  schemas:
+    Temperature:
+      required:
+        - date
+        - id
+        - value
+      properties:
+        id:
+          type: string
+          format: uuid
+        value:
+          type: number
+          format: float
+        date:
+          type: string
+          format: date-time
+        scale:
+          type: string
+          enum:
+            - celsius
+            - fahrenheit
+      example:
+        date: 2000-01-23T04:56:07.000Z
+        scale: celsius
+        id: 046b6c7f-0b8a-43b9-b35d-6489e6daee91
+        value: 0.8008282
+    Temperatures:
+      type: array
+      items:
+        $ref: '#/components/schemas/Temperature'
+    Error:
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: integer
+          format: int32
+        message:
+          type: string
+    body:
+      required:
+        - value
+      type: object
+      properties:
+        value:
+          type: number
+          format: float
+        scale:
+          type: string
+          enum:
+            - celsius
+            - fahrenheit
