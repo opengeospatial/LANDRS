@@ -7,15 +7,15 @@
     *   [EMERGENT CHALLENGES FOR SCIENCE sUAS DATA MANAGEMENT: FAIRNESS THROUGH COMMUNITY ENGAGEMENT AND BEST PRACTICES DEVELOPMENT](https://www.preprints.org/manuscript/201905.0274/v1)
     *   A Minimal Information Framework for capturing FAIR data with small Unmanned Aircraft Systems
     *   [Intercomparison of Small Unmanned Aircraft System (sUAS) Measurements for Atmospheric Science during the LAPSE-RATE Campaign](https://www.mdpi.com/1424-8220/19/9/2179)
-*   **Data management and information modeling for research **
+*   **Data management and information modeling for research**
     *   [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618)
     *   [Modeling Smart Sensors on top of SOSA/SSN and WoT TD with the Semantic Smart Sensor Network (S3N) modular Ontology](https://ssn2018.github.io/submissions/SSN2018_paper_1_submitted.pdf)
     *   [Ontology Modeling with Domain Experts: The GeoVocamp Experience](https://geog.ucsb.edu/~jano/2015-diversitypp-invited.pdf)
-    *   *[Why the Data Train Needs Semantic Rails](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2560)
+    *   [Why the Data Train Needs Semantic Rails](https://www.aaai.org/ojs/index.php/aimagazine/article/view/2560)
 
 **Reusable standards and introductions to relevant technologies**
 
-*   *****[OGC Environmental Linked Features Interoperability Experiment Engineering Report](https://docs.opengeospatial.org/per/18-097.html)
+*   [OGC Environmental Linked Features Interoperability Experiment Engineering Report](https://docs.opengeospatial.org/per/18-097.html)
 *   [OGC Testbed-14: Next Generation Web APIs - WFS 3.0 Engineering Report](https://docs.opengeospatial.org/per/18-045.html)
 *   [Spatial Data on the Web Best Practices](http://w3c.github.io/sdw/bp/)
 *   [A Web API ecosystem through feature-based reuse](https://arxiv.org/abs/1609.07108)
@@ -47,7 +47,7 @@
 **12:45 - 18:00 Unconfernce**
 
 **12:45 - 13:00: Unconference pitches:**
-   1. Hacking at a dummy OpenAPI demo: What the linked data documents we need look like and how OpenAPI can be molded for our needs
+   1. **OpenAPI Track - Developing an OpenAPI for Drone Data Capture**: Starting with an [OpenAPI document](https://github.com/opengeospatial/LANDRS/tree/master/DesignDocs/DesignHack1/openapi/openapi.yaml) largely influenced by the [OGC Coverages OpenAPI](https://github.com/opengeospatial/ogc_api_coverages/blob/master/core/openapi/openapi.yaml) we will determine whether the API meets a predefined, well understood use case before moving on to writing the service implementation in NodeJS. Advanced work includes discussing how linked data (SOSA/SSN/SWEET/ENVO) can play a role in linking observation features of interest (the *thing(s)* being sensed), to the platform/sensor/equipment doing the observing (the *thing(s) doing the sensing*).
    2. Building out the vocab and standardised conceptual models we need: creating the required missing models
    3. CEDAR as a tool for schema harmonization: strategising how and what we need to do
    4. Community building & governance: Creating a API features specification through application compentancy questions
