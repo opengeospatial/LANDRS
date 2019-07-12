@@ -23,6 +23,9 @@
 *   [OpenAPI an introduction](https://idratherbewriting.com/learnapidoc/pubapis_swagger_intro.html)
 *   [AsyncAPI](www.asyncapi.com)
 *   BioAPI: [BrAPI - an Application Programming Interface for Plant Breeding Applications](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz190/5418796)
+*   [A driving context ontology for making sense of cross-domain driving data](https://www.researchgate.net/publication/331991645_A_driving_context_ontology_for_making_sense_of_cross-domain_driving_data)
+*   [VSS ontology is an ontology for describing automotive attributes, branches and signals.](http://automotive.eurecom.fr/vsso)
+*   [MAVLINK Common Message Set](https://mavlink.io/en/messages/common.html)
 
 **Current drone data hosting projects:**
 
