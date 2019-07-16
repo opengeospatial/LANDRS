@@ -1,13 +1,11 @@
 openapi: 3.0.1
 info:
-  title: UxV Data API - based off of the OGC Coverages OpenAPI
-  description: 'This is a sample OpenAPI definition for UxV applications that conforms to the OGC Web Feature
-    Service specification (conformance classes: "Core", "GeoJSON", "HTML" and "OpenAPI
-    3.0").'
+  title: UxS Data API - extension to the OGC Coverages OpenAPI
+  description: 'This is a sample OpenAPI definition for UxS applications.'
   contact:
     name: OGC LANDRS
     url: https://github.com/opengeospatial/LANDRS
-    email: info@example.org
+    email: jwyngaar@nd.edu
   license:
     name: Apache v2.0
     url: http://www.apache.org/licenses/LICENSE-2.0
@@ -24,8 +22,8 @@ tags:
 - name: Coverages
   description: Collection feature that acts as a function to return values from ts 
     range for any direct position within its spatial, temporal or spatiotemporal domain.
-- name: Features
-  description: Access to data (features).
+# - name: Features
+#   description: Access to data (features).
 - name: Items
   description: Information objects associated with a given {collectionId}
 paths:
