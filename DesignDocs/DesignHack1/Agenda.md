@@ -34,13 +34,12 @@
 ### Drone Data Design Hackathon Tuesday 16 july 2019
 
 **10:15 - 11:45 (90min) Morning talks:**
-   - Introductions:
-      - Jane Wyngaard: LANDRS project plan, beta design
-      - Chuck Vardeman: Required semantics modeling gaps in need of work and progress thus far
+   - Intro
    - Current drone data tooling:
       - Joe Adams: USGS drone data technical stack
       - Sudhir Shrestha: Esri drone data technical stack
       - Chris Schnaufer: Cyverse and drone data
+      - John Graybeal: Introduction to CEDAR
 
 **11:45 - 12:45 Lunch (60min)**
 
@@ -54,12 +53,14 @@
 Vote with your feet afternoon
     
    * Session1: 13:00 - 15:00 (120min)  
+    (ESIP coffee break 14:15)
 
-Report back at 15:00 
+   * Report back at 15:00 
 
    * Session2: 15:15 - 17:15 (120min)  
+    (ESIP coffee break 16:15)
 
-Report back at 17:15
+   * Report back at 17:15
 
 **17:15 - 18:00 Closing session**
    * Summary of the day
