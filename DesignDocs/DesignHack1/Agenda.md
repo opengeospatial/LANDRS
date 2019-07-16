@@ -43,17 +43,17 @@
       - Sudhir Shrestha: Esri drone data technical stack
       - Chris Schnaufer: Cyverse and drone data
       - John Graybeal: Introduction to CEDAR
+   
+   - Unconference pitches:
+      1. **OpenAPI Track - Developing an OpenAPI for Drone Data Capture**: Starting with an [OpenAPI document](https://github.com/opengeospatial/LANDRS/blob/master/DesignDocs/DesignHack1/openapi/nodejs-server/api.yml) largely influenced by the [OGC Coverages OpenAPI](https://github.com/opengeospatial/ogc_api_coverages/blob/master/core/openapi/openapi.yaml) we will determine whether the API meets a predefined, well understood use case before moving on to [writing the service implementation in NodeJS](https://github.com/opengeospatial/LANDRS/tree/master/DesignDocs/DesignHack1/openapi/nodejs-server). Advanced work includes discussing how linked data (SOSA/SSN/SWEET/ENVO) can play a role in linking observation features of interest (the *thing(s)* being sensed), to the platform/sensor/equipment doing the observing (the *thing(s) doing the sensing*).
+      2. Building out the vocab and standardised conceptual models we need: creating the required missing models
+      3. CEDAR as a tool for schema harmonization: strategising how and what we need to do
+      4. Community building & governance: Creating a API features specification through application compentancy questions
 
 **11:45 - 12:45 Lunch (60min)**
 
 **12:45 - 18:00 Unconfernce**
 
-**12:45 - 13:00: Unconference pitches:**
-   1. **OpenAPI Track - Developing an OpenAPI for Drone Data Capture**: Starting with an [OpenAPI document](https://github.com/opengeospatial/LANDRS/blob/master/DesignDocs/DesignHack1/openapi/nodejs-server/api.yml) largely influenced by the [OGC Coverages OpenAPI](https://github.com/opengeospatial/ogc_api_coverages/blob/master/core/openapi/openapi.yaml) we will determine whether the API meets a predefined, well understood use case before moving on to [writing the service implementation in NodeJS](https://github.com/opengeospatial/LANDRS/tree/master/DesignDocs/DesignHack1/openapi/nodejs-server). Advanced work includes discussing how linked data (SOSA/SSN/SWEET/ENVO) can play a role in linking observation features of interest (the *thing(s)* being sensed), to the platform/sensor/equipment doing the observing (the *thing(s) doing the sensing*).
-   2. Building out the vocab and standardised conceptual models we need: creating the required missing models
-   3. CEDAR as a tool for schema harmonization: strategising how and what we need to do
-   4. Community building & governance: Creating a API features specification through application compentancy questions
-   
 Vote with your feet afternoon
     
    * **Session1: 13:00 - 15:00** (120min)
