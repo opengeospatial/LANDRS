@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://vue.tufts.edu/ontology/vue.rdfs#" > 
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84708ac140a0201867a8a55c34024">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84721ac140a0201867a8acd60e3df">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>ground-based computer</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f9ac140a0201867a8ab7cc812a">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>unmanned subterrestrial vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84730ac140a0201867a8a9b738932">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84708ac140a0201867a8a915c8113">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>locomotion system</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84732ac140a0201867a8aada5d577">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84707ac140a0201867a8a39074483">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84730ac140a0201867a8a9a32010f">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472cac140a0201867a8a08b762b8">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:notes>need not be flights for UAqVs UGVs, etc</j.0:notes>
+    <j.0:label>drone " flight" </j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84720ac140a0201867a8a20ad78b5">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846feac140a0201867a8afe0d93f1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>VSSO</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84721ac140a0201867a8aa87c20ff">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f7ac140a0201867a8a78993b2d">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471dac140a0201867a8a5646e043">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>sampling process</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f4ac140a0201867a8a751f1d1b">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>autonomous vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84707ac140a0201867a8a7f621a56">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>computer</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84709ac140a0201867a8af514e6a5">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>propeller</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471dac140a0201867a8ac1079b53">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84709ac140a0201867a8abd0eeaa9">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471eac140a0201867a8a9f6cce3e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84727ac140a0201867a8acd9ceae7">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84702ac140a0201867a8aab4924b3">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f4ac140a0201867a8a19fd964f">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472dac140a0201867a8a2eb22f9e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84701ac140a0201867a8adcd0435c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>hull</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84725ac140a0201867a8acda1a577">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>planned process</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470dac140a0201867a8a2c71cb47">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part min 2</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470bac140a0201867a8a812a2bda">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>process</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472fac140a0201867a8a3ff2fac2">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>one-dimensional spatial region</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84702ac140a0201867a8adb734196">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>electric motor</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84731ac140a0201867a8a52493550">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472fac140a0201867a8abb171102">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>trajectory</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470bac140a0201867a8ae4a4b513">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>drone-mediated transport process</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84729ac140a0201867a8a3ee6e80a">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f6ac140a0201867a8a72fdb962">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>unmanned aquatic vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472fac140a0201867a8a2b36b3fd">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472dac140a0201867a8a053e0a45">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>waypoint acquisition 
+specification</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84702ac140a0201867a8aa61ee72f">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>engine</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84725ac140a0201867a8a55393aa3">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:notes>needs definition or refinement along IAO</j.0:notes>
+    <j.0:label>"insatlled on" </j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73">
+    <j.0:label>droneSemanticSketch.vue</j.0:label>
+    <j.0:author>jdadams</j.0:author>
+    <j.0:id>0</j.0:id>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471cac140a0201867a8a12b5e338">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>material entity</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f8ac140a0201867a8aa6423a84">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>unmanned underwater vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84727ac140a0201867a8a52fb697c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>objective specification</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84703ac140a0201867a8a9bcb6325">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84724ac140a0201867a8a706f519d">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f3ac140a0201867a8ae9a3db3a">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:notes>Synonym exact : drone</j.0:notes>
+    <j.0:label>unmanned vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84709ac140a0201867a8a773063b4">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846ffac140a0201867a8ab7e49b63">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>airframe</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f7ac140a0201867a8af4b5e2ff">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84722ac140a0201867a8ad09dada7">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>llocated in</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470dac140a0201867a8afe8099f9">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470aac140a0201867a8af20d13e1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84700ac140a0201867a8ac78ec25b">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:notes>mostly for ground vehicles</j.0:notes>
+    <j.0:label>chassis</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84724ac140a0201867a8ab7f07da2">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>generically dependent continuant</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84730ac140a0201867a8a7dff1413">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472bac140a0201867a8a6ff52a7d">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>drone mission</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84729ac140a0201867a8a2f3a7d0c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>drone mission</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471eac140a0201867a8a67ee443c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>telemetry system</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470bac140a0201867a8a99c6ec58">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has active participant</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f7ac140a0201867a8a269d15f8">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>unmanned terrestrial vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84703ac140a0201867a8afe2b10d5">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>gas engine</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84731ac140a0201867a8a8fa9be25">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>overlap</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84701ac140a0201867a8a4862fba0">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f5ac140a0201867a8a9ad1c450">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84706ac140a0201867a8a7778b7e0">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84701ac140a0201867a8a6ee26e92">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:property>https://english.stackexchange.com/questions/42027/semantic-difference-between-engine-and-motor</j.0:property>
+    <j.0:label>motor</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846ffac140a0201867a8ad17158f9">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>vehicle body</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471fac140a0201867a8a35703b87">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84728ac140a0201867a8a7126273c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>concretizes/realizes</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470aac140a0201867a8a9d03b32a">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>communication system</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472cac140a0201867a8aee5993f5">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part min 1</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472cac140a0201867a8a620287c5">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>concretizes/realises</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84720ac140a0201867a8a2bd47d48">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84715ac140a0201867a8a8c18d145">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>drone-mediated sample
+ transport process</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470aac140a0201867a8a2cfea8d3">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472fac140a0201867a8a9b5e6a37">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>waypoint</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472bac140a0201867a8a0a422754">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470aac140a0201867a8a66f4c2ca">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84723ac140a0201867a8aa6738adf">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472bac140a0201867a8af7e19820">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f6ac140a0201867a8a188ff0a9">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84717ac140a0201867a8a63bf207b">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472dac140a0201867a8a0bf869ab">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>trajectory succession specification</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472eac140a0201867a8abfced18d">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84705ac140a0201867a8ab1180804">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84731ac140a0201867a8a2c8c0668">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>zero-dimensional spatial region</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471cac140a0201867a8a3f5b6fd3">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>sample</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84722ac140a0201867a8af04bc26a">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>software</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472aac140a0201867a8aa254925d">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has participant</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84723ac140a0201867a8a2ed24925">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>information content entity</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84706ac140a0201867a8a5d22b280">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471bac140a0201867a8ad688e7dd">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84707ac140a0201867a8a0c7543df">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>device</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84731ac140a0201867a8a1d715553">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>fix</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470eac140a0201867a8a8234bed1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has participant</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472aac140a0201867a8a2b5d18f0">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>mission path specification</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471fac140a0201867a8a7fc9ffc9">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>system</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84731ac140a0201867a8ab91d356e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>segment</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470dac140a0201867a8a34a0d3a1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>drone-mediated transport of sensors</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f5ac140a0201867a8ae308397c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>unmanned aerial vehicle</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84708ac140a0201867a8a882df302">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84723ac140a0201867a8a440d5fc6">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f8ac140a0201867a8a350f1df1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84700ac140a0201867a8a493ed60e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a ?</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84704ac140a0201867a8ae73fd2f7">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472eac140a0201867a8a72cbbd96">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84732ac140a0201867a8aa7d65fae">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>"moves through" </j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846ffac140a0201867a8af0ecee4f">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84732ac140a0201867a8ac6c3fd1b">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>environmental material</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84732ac140a0201867a8a8e8aa732">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has part min 1</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470cac140a0201867a8a760d0db6">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8471dac140a0201867a8a2a6510a6">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>output of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470bac140a0201867a8a1ef4696e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:notes>NOT the drone itself
+
+This should be defiend as an equivalence axiom thus autopopulated</j.0:notes>
+    <j.0:label>payload</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472dac140a0201867a8a05aa8933">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>part of</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84709ac140a0201867a8a25210ca4">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>controller</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84730ac140a0201867a8a4f00637e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>action specification</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84721ac140a0201867a8a148de0b1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>terrestrial biome</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8472fac140a0201867a8a5e2a6716">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846feac140a0201867a8a9851fed1">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84704ac140a0201867a8aa541774a">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>hybrid motor</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84722ac140a0201867a8a7db4833c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>ground station</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846feac140a0201867a8a83beac95">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84705ac140a0201867a8ae1ca0b58">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>piloting system</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84729ac140a0201867a8a45919bb0">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has active participant</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84700ac140a0201867a8a8b5731e7">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a ?</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470cac140a0201867a8a5d837dd4">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>has participant </j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84703ac140a0201867a8ac37d03f6">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>is a</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84731ac140a0201867a8a9ff3ae55">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>medium</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84726ac140a0201867a8ae933c41e">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>plan specification</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470dac140a0201867a8a4338a597">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>sensor array</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce8470cac140a0201867a8ab1b5d84c">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>sensor</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce84706ac140a0201867a8ad91e9e34">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>autopilot system</j.0:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vue.tufts.edu/rdf/resource/fce846f3ac140a0201867a8a65cac73d">
+    <j.0:child rdf:resource="http://vue.tufts.edu/rdf/resource/fce846f2ac140a0201867a8a76f45e73"/>
+    <j.0:label>Vehicle</j.0:label>
+  </rdf:Description>
+</rdf:RDF>
