@@ -126,11 +126,11 @@ paths:
             text/html:
               schema:
                 type: string
-    post:
+    put:
       tags:
       - Collections
       summary: Create a new coverage collection named {collectionid}
-      operationId: postcollection
+      operationId: putcollection
       parameters:
       - name: collectionid
         in: path
@@ -290,11 +290,11 @@ paths:
             text/html:
               schema:
                 type: string
-    post:
+    put:
       tags:
       - Coverages
       summary: Create a new coverage named {coverageid}
-      operationId: postcoverage
+      operationId: putcoverage
       parameters:
       - name: collectionid
         in: path
@@ -548,6 +548,47 @@ paths:
           description: An item in native JSONLD format
           content:
             application/multipart+related:
+              schema:
+                $ref: '#/components/schemas/itemJSONLD'
+            text/html:
+              schema:
+                type: string
+        default:
+          description: An error occured.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/exception'
+            text/html:
+              schema:
+                type: string
+    put:
+      tags:
+      - Items
+      summary: Create a new item named {itemid}
+      operationId: putitem
+      parameters:
+      - name: collectionid
+        in: path
+        description: Identifier (name) of a specific collection
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      - name: itemid
+        in: path
+        description: Local identifier of a specific item
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        200:
+          description: Success response indicating this item has been created
+          content:
+            application/json:
               schema:
                 $ref: '#/components/schemas/itemJSONLD'
             text/html:
