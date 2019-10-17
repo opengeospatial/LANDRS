@@ -27,7 +27,7 @@ This topic will investigate integration of observation collection/observation to
     - [Examples](https://github.com/opengeospatial/SELFIE/tree/master/docs/examples)
 * [W3C JSON-LD 1.1](https://w3c.github.io/json-ld-syntax/)
 * [Hydra Core Vocabulary](https://www.hydra-cg.com/spec/latest/core/)
-
+* [W3C Content Negotiation by Profile](https://www.w3.org/TR/dx-prof-conneg/)
 
 ## Topic #3 Creation of Python Utility function for SOSA:Observation and SOSA:ObservationCollection
  The aim of this topic is the creation of some python utilities that can manage observations/observation collections in python and serialize the collections to JSON-LD. Relevant Resources for this topic are:
