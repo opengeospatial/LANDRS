@@ -13,6 +13,10 @@ The proposed topic for the ontology portion of this hackathon will focus on harm
  - [A Geo-Ontology Desing Pattern for Semantic Trajectories](https://www.geog.ucsb.edu/~jano/semantic_trajectories.pdf)
 * [Drone Ontology From Hackathon #1](https://github.com/opengeospatial/LANDRS/blob/master/DesignDocs/DesignHack1/ontology/droneSemanticSketch-copy.png)
 
+### Use of Semantic Trajectory in Vehicle Ontology
+* [Generating Semantic Trajectories Using a Car Signal Ontology](http://www.eurecom.fr/en/publication/5493/download/data-publi-5493.pdf)
+* [Reuses STEP Ontology](https://talespaiva.github.io/step/)
+* [FLask App Implimentation](https://github.com/klotzbenjamin/vss-ontology/tree/master/trajectory-annotation)
 
 ## Topic #2 Linked-Data Integration with OGC WFS 3.0 proposed standard
 This topic will investigate integration of observation collection/observation to an OGC WFS 3.0 API using linked data principles and JSON-LD content types. Relevant Resources for this topic are: 
