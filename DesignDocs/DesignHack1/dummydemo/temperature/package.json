@@ -14,7 +14,7 @@
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "js-yaml": "^3.3.0",
     "mongoose": "^5.6.4",
     "oas-tools": "^2.1.4",
