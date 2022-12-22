@@ -17,7 +17,7 @@
     "express": "^4.16.3",
     "js-yaml": "^3.3.0",
     "mongoose": "^5.6.4",
-    "oas-tools": "^2.1.4",
+    "oas-tools": "^3.0.0",
     "uuid": "^3.3.2"
   }
 }
