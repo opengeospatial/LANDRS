@@ -1,3 +1,9 @@
+# Archived Project — No Longer Maintained
+
+This repository contains example software developed as part of a completed project. It is retained for historical reference and educational purposes only.
+
+The software is not intended for production use and is no longer actively developed, maintained, or supported. Security vulnerabilities and compatibility issues may not be addressed.
+
 # README
 LANDRS: Linked-data API for Networked DRoneS
 An API for building drone data management tools that facilitate FAIR data.
